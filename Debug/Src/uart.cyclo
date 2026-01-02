@@ -1,0 +1,4 @@
+../Src/uart.c:28:6:uart_init	1
+../Src/uart.c:43:6:uart_send_char	2
+../Src/uart.c:49:6:uart_send_string	2
+../Src/uart.c:54:6:uart_send_dec	4
