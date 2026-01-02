@@ -4,6 +4,7 @@
  *  Created on: Jan 1, 2026
  *      Author: sowji
  */
+//uart header file
 #ifndef UART_H
 #define UART_H
 
