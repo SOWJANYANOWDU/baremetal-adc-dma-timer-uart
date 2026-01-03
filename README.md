@@ -5,18 +5,6 @@ All peripherals are configured manually via memory-mapped registers.
 ADC conversions are triggered periodically by timer, transferred to memory using DMA, and the sampled values are transmitted over UART.
 
 
-## Design Approach
-
-This project is implemented using **modular programming**.
-
-- `main.c` contains only the application flow and initialization.
-- `adc_dma.c / adc_dma.h` handle ADC with DMA functionality.
-- `uart.c / uart.h` handle UART communication.
-
-This modular design improves code readability, reusability, and ease of debugging.
-
-
-
 ## Project Overview
 
 - TIM2 is configured to generate a 100 Hz trigger (every 10 ms)
@@ -33,6 +21,18 @@ This video demonstrates:
 - ADC sampling using DMA
 - Real-time data transfer to RAM
 - UART transmission of ADC values to the serial terminal
+
+
+
+## Design Approach
+
+This project is implemented using **modular programming**.
+
+- `main.c` contains only the application flow and initialization.
+- `adc_dma.c / adc_dma.h` handle ADC with DMA functionality.
+- `uart.c / uart.h` handle UART communication.
+
+This modular design improves code readability, reusability, and ease of debugging.
 
 
 
