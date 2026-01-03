@@ -14,8 +14,18 @@
  * If no LICENSE file comes with this software, it is provided AS-IS.
  *
  ******************************************************************************
+ *
+ //*
+ * main.c
+ *
+ * Description:
+ * This project follows a modular programming approach.
+ * UART functionality is implemented in uart.c / uart.h.
+ * ADC with DMA functionality is implemented in adc_dma.c / adc_dma.h.
+ *
+ * main.c contains the application control logic and
+ * integrates all peripheral modules.
  */
-// adding comment
 
 #include<stdint.h>
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
