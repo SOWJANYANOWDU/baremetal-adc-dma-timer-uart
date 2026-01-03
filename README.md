@@ -34,11 +34,12 @@ This modular design improves code readability, reusability, and ease of debuggin
 
 ## Peripheral Configuration
 
-Peripheral & Purpose:
-TIM2 - Generates periodic trigger
-ADC1 - Analog to Digital Conversion
-DMA2 Stream0 - Transfers ADC data to RAM
-USART2 - Displays ADC values
+| Peripheral   | Purpose                          |
+|-------------|----------------------------------|
+| TIM2        | Generates periodic trigger        |
+| ADC1        | Analog to Digital Conversion     |
+| DMA2 Stream0| Transfers ADC data to RAM        |
+| USART2      | Displays ADC values via UART     |
 
 
 ## Timer Configuration (100 Hz)
