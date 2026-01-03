@@ -27,7 +27,7 @@ This modular design improves code readability, reusability, and ease of debuggin
 
 ## Project Demo Video
 
-▶️ [Click here to watch the project demo video (Google Drive)]([https://drive.google.com/file/d/YOUR_FILE_ID/view](https://drive.google.com/file/d/1jFHeErMYynKdb1vjdd823InaD1n6XuNM/view?usp=drivesdk))
+▶️ [Click here to watch the project demo video (https://drive.google.com/file/d/1jFHeErMYynKdb1vjdd823InaD1n6XuNM/view?usp=drivesdk)]([https://drive.google.com/file/d/YOUR_FILE_ID/view](https://drive.google.com/file/d/1jFHeErMYynKdb1vjdd823InaD1n6XuNM/view?usp=drivesdk))
 
 This video demonstrates:
 - ADC sampling using DMA
