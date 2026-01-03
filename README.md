@@ -57,6 +57,4 @@ This results in one ADC conversion every 10 ms.
 2. Build the project
 3. Flash the code to the STM32 NUCLEO-F446RE board
 4. Open PuTTY at 115200 baud
-5. Observe ADC values while rotating the potentiometer
-
-using software architecture
+5. Observe ADC values while rotating the potentiometer using software architecture
