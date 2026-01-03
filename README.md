@@ -25,6 +25,16 @@ This modular design improves code readability, reusability, and ease of debuggin
 - USART2 transmits ADC values to a serial terminal (PuTTY)
 
 
+## Project Demo Video
+
+▶️ [Click here to watch the project demo video (Google Drive)](https://drive.google.com/file/d/YOUR_FILE_ID/view)
+
+This video demonstrates:
+- ADC sampling using DMA
+- Real-time data transfer to RAM
+- UART transmission of ADC values to the serial terminal
+
+
 ## Hardware Setup
 
 - Board: STM32 NUCLEO-F446RE
